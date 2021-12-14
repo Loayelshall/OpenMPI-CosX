@@ -4,9 +4,9 @@
 
 long double factorial(long double n) {
     long double result = 1;  
-    for (long double i = 2; i < n; i++)
+    for (long double i = 1; i <= n; i++)
     {
-        result *= i + 1;
+        result *= i;
     }
     return result;
 }
